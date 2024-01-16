@@ -17,7 +17,7 @@ function cutText (text) {
     if (text.length > 50) {
         const croppedText =  text.slice (0,47) + '...';
         console.log (croppedText)
-    } else {console.log (text)}
+    } else {console.log (text);}
 }
 
 let exampleTxt = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit erat eu dolor mattis vehicula. Quisque tempor vulputate nunc, vel euismod mi rutrum ac. Morbi eget viverra turpis, ut ullamcorper velit. Curabitur rhoncus eu eros quis vulputate. In lobortis, nibh quis aliquet rhoncus, lectus mi auctor libero, nec interdum augue nibh vitae urna. Vestibulum vel sollicitudin nibh. Maecenas venenatis malesuada scelerisque. Cras dapibus leo ut quam aliquam congue';
@@ -27,7 +27,7 @@ cutText (exampleTxt);
 //task 3
 function arrToString (array) {
     const string = array.join (' ');
-    console.log (string)
+    console.log (string);
 }
 
 const arr = ['JavaScript', '-', 'мультипарадигменный', 'язык', 'программирования', 'с', 'динамической', 'типизацией'];
@@ -37,7 +37,7 @@ arrToString (arr);
 //task 4
 function stringToArr (someString) {
 const arr = someString.split (',');
-console.log (arr)
+console.log (arr);
 }
 
 const colors = 'Yellow, Green, Orange, Black, White';
@@ -50,12 +50,12 @@ function letterCounting (string) {
     for (let i = 0; i < checkedWords.length; i++) {
         let l;
         if (checkedWords[i].length === 1) {l = 'букву'} else if (checkedWords[i].length > 1 && checkedWords[i].length < 5) {l = 'буквы'} else {l = 'букв'};
-        console.log ('"'+ checkedWords[i] + '"' + ' содержит' + ' ' + checkedWords[i].length + ' ' + l)
+        console.log ('"'+ checkedWords[i] + '"' + ' содержит' + ' ' + checkedWords[i].length + ' ' + l);
     }
 }
 
 let string2 = 'Я так сильно люблю программировать';
-letterCounting (string2)
+letterCounting (string2);
 
 
 //task 6
@@ -66,13 +66,13 @@ function removeDuplicateNames (namesArr) {
     for (let i = 0; i < smallLetter.length; i++) {
         let checkedName = smallLetter [i];
         if (!newNamesArr.includes (checkedName)) {
-            newNamesArr.push (checkedName)
+            newNamesArr.push (checkedName);
         }
     }
     for (let i = 0; i < newNamesArr.length; i++) {
         newNamesArr [i] = newNamesArr [i].charAt (0).toUpperCase () + newNamesArr [i].slice (1)
     }
-    console.log (newNamesArr)
+    console.log (newNamesArr);
 }
 
 const names = ["Alice", "Bob", "alice", "Eve", "BOB", "Charlie", "eve", "David", "charlie"];
@@ -90,4 +90,4 @@ function findLeapYear (firstYear, lastYear) {
     return years;
         }
     
-    console.log (findLeapYear (1900, 2024))
+    console.log (findLeapYear (1900, 2024));
