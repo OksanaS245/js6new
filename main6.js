@@ -1,5 +1,5 @@
 //task 6
-function removeDuplicateNames (namesArr) {
+function removeDuplicateNames(namesArr) {
     const string = namesArr.join (' ');
     const smallLetter = string.toLowerCase ().split (' ');
     let newNamesArr = [];

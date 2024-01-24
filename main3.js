@@ -1,7 +1,7 @@
 //task 3
-function arrToString (array) {
+function arrToString(array) {
     const string = array.join (' ');
-    return (string);
+    return string;
 }
 
 const arr = ['JavaScript', '-', 'мультипарадигменный', 'язык', 'программирования', 'с', 'динамической', 'типизацией'];

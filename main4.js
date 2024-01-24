@@ -1,5 +1,5 @@
 //task 4
-function stringToArr (someString) {
+function stringToArr(someString) {
 const arr = someString.split (',');
 return arr;
 }

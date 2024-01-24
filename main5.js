@@ -1,5 +1,5 @@
 //task 5
-function letterCounting (string) {
+function letterCounting(string) {
     const checkedWords = string.split (' ');
     for (let i = 0; i < checkedWords.length; i++) {
         let l;
@@ -9,6 +9,6 @@ function letterCounting (string) {
 }
 
 let string2 = 'Я так сильно люблю программировать';
-letterCounting (string2);
+letterCounting(string2);
 
 
