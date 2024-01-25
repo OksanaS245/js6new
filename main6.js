@@ -16,5 +16,5 @@ function removeDuplicateNames(namesArr) {
 }
 
 const names = ["Alice", "Bob", "alice", "Eve", "BOB", "Charlie", "eve", "David", "charlie"];
-console.log (removeDuplicateNames(names));
+console.log(removeDuplicateNames(names));
 

@@ -10,4 +10,4 @@ function findLeapYear(firstYear, lastYear) {
     return years;
         }
     
-    console.log (findLeapYear(1900, 2024));
+    console.log(findLeapYear(1900, 2024));
